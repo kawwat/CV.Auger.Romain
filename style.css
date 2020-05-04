@@ -1,0 +1,211 @@
+body
+{
+	font-family: Arial, Courier New, Georgia, Times New Roman, Verdana, sans-serif;
+	font-size: 0.9em;
+	color: black;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	line-height: 1.7; /* indique la hauteur entre les lignes*/
+}
+img
+{
+	width: 100%;
+	height:auto;
+}
+#conteneur
+{
+	border:2px solid #444;
+	display: flex;
+	flex-flow: column;
+}
+#image /*couleur autour de la photo*/
+{
+	background-color: #FF6F00;
+}
+.photo 
+{
+	width: 50%;
+	display: block;
+	margin: auto;
+	padding: 15% 0%;
+	border-radius: 50%;
+}
+.titre h2 span
+{
+	color: #FF6F00;
+}
+.titre h2
+{
+		font-size: 2.5em;
+}
+.titre h1
+{
+	font-size: 2.2em;
+}
+.titre h1 span
+{
+	text-decoration: underline;
+	text-decoration-color: #FF6F00;
+}
+h1,h2
+{
+	margin: 0;
+	text-align: center;
+}
+h3
+{
+	margin: 0;
+	padding-left: 5%;
+}
+h4
+{
+	text-align: center;
+	background-color: black;
+	color: #FF6F00;
+}
+/******bloc_droit*******/
+/*****Formations*******/
+/*****Experiences*****/
+/**Recommandations***/
+#bloc_droit
+{
+	width: 90%;
+	margin: auto;
+}
+.entete_bloc_droit
+{
+	margin: 4% 0%; 
+	font-size: 2em;
+	display: flex;
+	border-bottom: 0.5px solid #FF6F00;
+}
+.entete_bloc_droit h1
+{
+	margin: 0;
+	padding-left: 5%;
+}
+.page_formation
+{
+	display: flex;
+}
+.puce
+{
+	margin: 5% 2% 0% 5%;
+}
+.ville
+{
+	font-size: 1.2em;
+}
+.lieu
+{
+	padding-left: 10%; 
+	font-size: 1.2em;
+}
+#recommandation
+{
+	display: flex;
+}
+/******Contact******/
+/*A propos de moi**/
+/*****Loisirs*****/
+#bloc_gauche
+{
+	background-color: #FF6F00;
+	border-top: 1px solid #FF6F00;
+}	
+#bloc_gauche h4
+{
+	font-size: 2.2em;
+	margin: 0;
+}
+.infos
+{
+	padding: 5% 0%;
+	font-size: 1.8em;
+	text-align: center;
+}
+.a_propos
+{
+	padding: 10%;
+	font-size: 1.8em;
+}
+#FontAwesome
+{
+	display: flex;
+	padding: 5%;
+}
+.icone
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	color: white;
+	margin: auto;
+}
+span
+{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+@media all and (min-width: 750px)
+{
+	body
+	{
+		max-width: 1024px;
+		margin: auto;
+	}
+	#conteneur
+	{
+		
+		flex-flow: wrap;	
+	}
+	#bloc_haut_gauche
+	{
+		display: flex;	
+		width: 100%;
+	}	
+	#image
+	{
+		width: 40%;
+	}
+	.photo
+	{
+		width: 60%;
+	}
+	.titre 
+	{
+		width: 60%;
+		padding: 8% 0%;
+	}
+	.titre h1
+	{
+		font-size: 2.5em;
+	}
+	#bloc_droit
+	{
+		width: 60%;
+		margin: 0;
+		padding: 0% 3%;
+		order: 2;
+		box-sizing: border-box;
+	}
+	#bloc_gauche
+	{
+		width: 40%;
+		order: 1;
+		position: relative;
+	}
+	.a_propos
+	{
+		padding: 10%;
+	}
+	.position
+	{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+}
