@@ -8,21 +8,25 @@ body
 	margin: auto;
 	line-height: 1.7; /* indique la hauteur entre les lignes*/
 }
+
 img
 {
 	width: 100%;
 	height:auto;
 }
+
 #conteneur 
 {
 	border: 2px solid #444;
 	display: flex;
 	flex-flow: column;
 }
+
 #image /*couleur autour de la photo*/
 {
 	background-color: #FF6F00;
 }
+
 .photo /*Photo de profil*/
 {
 	display: block;
@@ -30,40 +34,47 @@ img
 	padding: 15% 0%;
 	border-radius: 50%;
 }
+
 .titre h2 span
 {
 	color: #FF6F00;
 }
+
 .titre h2
 {
 		font-size: 2.5em;
 }
+
 .titre h1
 {
 	font-size: 2.2em;
 }
+
 .titre h1 span
 {
 	text-decoration: underline;
 	text-decoration-color: #FF6F00;
 }
+
 h1,h2
 {
 	margin: 0;
 	text-align: center;
 }
+
 h3
 {
 	margin: 0;
-	padding-left: 5%;
-	font-size: 0.7em;
+	font-size: 1em;
 }
+
 h4
 {
 	text-align: center;
 	background-color: black;
 	color: #FF6F00;
 }
+
 /******bloc_droit*******/
 /*****Formations*******/
 /*****Experiences*****/
@@ -73,6 +84,7 @@ h4
 	width: 90%;
 	margin: auto;
 }
+
 .entete_bloc_droit
 {
 	margin: 4% 0%; 
@@ -80,37 +92,42 @@ h4
 	display: flex;
 	border-bottom: 0.5px solid #FF6F00;
 }
+
 .entete_bloc_droit h1
 {
 	margin: 0;
 	padding-left: 5%;
 }
+
 .page_formation
 {
 	display: flex;
+	justify-content: space-between;
 }
-.puce
-{
-	margin: 5% 2% 0% 5%;
-}
+
+
 .ville
 {
 	font-size: 1.2em;
 }
+
 .lieu
-{
-	padding-left: 10%; 
+{ 
 	font-size: 1.2em;
+	width: 60%;
 }
+
 #recommandation
 {
 	display: flex;
 }
+
 .logo
 {
 	width: 72px;
 	height: 57px;
 }
+
 /******Contact******/
 /*A propos de moi**/
 /*****Loisirs*****/
@@ -119,27 +136,32 @@ h4
 	background-color: #FF6F00;
 	border-top: 1px solid #FF6F00;
 }	
+
 #bloc_gauche h4
 {
 	font-size: 2.2em;
 	margin: 0;
 }
+
 .infos
 {
 	padding: 5% 0%;
 	font-size: 1.8em;
 	text-align: center;
 }
+
 .a_propos
 {
 	padding: 10%;
 	font-size: 1.8em;
 }
+
 #FontAwesome
 {
 	display: flex;
 	padding: 5%;
 }
+
 .icone
 {
 	display: flex;
@@ -152,11 +174,13 @@ h4
 	border: 3px solid black;
 	border-radius: 50%;
 }
+
 span
 {
 	font-weight: bold;
 	font-size: 1.2em;
 }
+
 @media all and (min-width: 750px)
 {
 	body
@@ -164,33 +188,40 @@ span
 		max-width: 1024px;
 		margin: auto;
 	}
+
 	#conteneur
 	{
 		
 		flex-flow: wrap;	
 	}
+
 	#bloc_haut_gauche/*photo + nom et prénom*/
 	{
 		display: flex;	
 		width: 100%;
 	}	
+
 	#image
 	{
 		width: 40%;
 	}
+
 	.photo
 	{
 		width: 60%;
 	}
+
 	.titre 
 	{
 		width: 60%;
 		padding: 8% 0%;
 	}
+
 	.titre h1
 	{
 		font-size: 2.5em;
 	}
+
 	#bloc_droit/*bloc au fond blanc*/
 	{
 		width: 60%;
@@ -199,22 +230,26 @@ span
 		order: 2;
 		box-sizing: border-box;
 	}
+
 	#bloc_gauche/*bloc au fond orange*/
 	{
 		width: 40%;
 		order: 1;
 		position: relative;
 	}
+
 	.a_propos
 	{
 		padding: 10%;
 	}
+
 	.position /*bloc avec les loisirs*/
 	{
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 	}
+
 	h3
 	{
 		font-size: 1.2em;
