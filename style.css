@@ -267,15 +267,7 @@ h4
 	.ville
 	{
 		padding-top: 5px;
-		width: 31%;
 		font-size: 0.8em;
-	}
-
-	.lieu
-	{
-		padding-left: 5%;
-		width: 65%;
-		padding-top: 5px;
 	}
 
 	#bloc_gauche/*bloc fond vert*/
@@ -299,11 +291,12 @@ h4
 	}
 	#recommandation
 	{
-		margin-bottom: 5%;
+		margin: 3% 0%;
 	}
+
 	#recommandations,.lieu
 	{
 		padding-left: 0;
-		padding-top: 0;
+
 	}
 }
