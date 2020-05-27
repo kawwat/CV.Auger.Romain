@@ -46,9 +46,9 @@ img
 
 .titre h2
 {
-		font-size: 2.5em;
-		margin: 0;
-		text-align: center;
+	font-size: 2.5em;
+	margin: 0;
+	text-align: center;
 }
 
 .titre h1
@@ -56,7 +56,7 @@ img
 	text-align: center;
 }
 
-.titre h1 span
+.titre h1 span /* ligne verte sous developpeur*/
 {
 	padding-bottom: 2px;
 	border-bottom: 2px solid #7CB342;
@@ -65,12 +65,11 @@ img
 h3
 {
 	margin: 0;
-	font-size: 0.8em;
+	font-size: 0.7em;
 	color: black;
 }
-h3>i
+h3>i /*padding sur les icones des h3*/
 {
-	color: #7CB342;
 	padding-right: 30px;
 }
 
@@ -208,7 +207,6 @@ h4
 
 	#conteneur
 	{
-		
 		flex-flow: wrap;	
 	}
 
@@ -280,7 +278,7 @@ h4
 		padding-top: 5px;
 	}
 
-	#bloc_gauche/*bloc fond orange*/
+	#bloc_gauche/*bloc fond vert*/
 	{
 		width: 35%;
 		order: 1;
@@ -306,6 +304,5 @@ h4
 	#recommandations,.lieu
 	{
 		padding-left: 0;
-		padding-top: 20px;
 	}
 }
